@@ -2,7 +2,7 @@ import logging
 from aiogram import Bot, Dispatcher, executor, types
 logging.basicConfig(level=logging.INFO)
 
-bot = Bot(token='1011989128:AAH1lakCGEn-yRXj1e6S9emFDe-HcJy2jIc')
+bot = Bot(token='TOKEN')
 dp = Dispatcher(bot)
 
 @dp.message_handler()
